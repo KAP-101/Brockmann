@@ -1,0 +1,78 @@
+.website-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #BCB5B5;
+    height: 4000px;
+}
+
+.title-page {
+    height: 978px;
+}
+
+.title-screen-background {
+    position: absolute;
+    width: 100%;
+    object-fit: contain;
+    z-index: 0;
+}
+
+.main-heading  {
+    position: relative;
+    transform: translate(10%, 80%);
+    font-family: 'Work Sans';
+    font-weight: 200;
+    font-size: 6vw;
+    width: 80%;
+    text-align: center;
+
+    z-index: 1;
+}
+
+h2 {
+    text-align: center;
+    font-size: 75px;
+    font-weight: 200;
+}
+
+ul {
+    margin-left: 30px;
+}
+
+li {
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+.port-img {
+    float: right;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+.quote-section {
+    background-color: black;
+    height: 600px;
+}
+
+.quote-text {
+    color: #4B7E45;
+    font-size: 60px;
+    text-align: left;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+figure.quote-text2 {
+    float: right;
+    border-left: 8px solid #D8415C;
+    padding: 1.5rem 0 1.5rem 2rem;
+    margin-bottom: 2rem;
+    width: 500px;
+}
+
+p {
+    font-size: 30px;
+    margin: 0 50px;
+}
