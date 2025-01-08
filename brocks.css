@@ -4,11 +4,11 @@
     width: 100vw;
     overflow-x: hidden;
     background-color: #BCB5B5;
-    height: 4000px;
+    height: 3000px;
 }
 
 .title-page {
-    height: 978px;
+    height: 987px;
 }
 
 .title-screen-background {
@@ -26,7 +26,6 @@
     font-size: 6vw;
     width: 80%;
     text-align: center;
-
     z-index: 1;
 }
 
